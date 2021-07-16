@@ -79,6 +79,10 @@ It may happen that while scraping the script will warn you about the need to per
 
 This happens when you inserted in the input file a Profile URL which is not correctly formatted.
 
+## Saving data and taking url's
+All urls take's from dir "urls.txt"
+Result data saving to xlsx file with filename "result_{saving time}.xlsx"
+
 Here some tips:
 * The profile URL should always end with `/`
 * Open a browser window and navigate to such URL. Wait for the page to load. Is the URL currently in the browser navigation bar the same as the one you initially inserted? If not, you should insert in the input file the one you see now at the navigation bar.
@@ -91,9 +95,6 @@ You can also customize the code in many ways:
 * The easy one is changing the order how the data is inserted in the excel file, or renaming the excel file headers.
 * The harder one is to do scraping of additional data: have a look at the Acknowledgments down here or feel free to reach me out to propose new code.
 
-## Authors
-
-* **Federico Haag** - [LinkedIn](https://www.linkedin.com/in/federicohaag/) - [Medium](https://medium.com/@federicohaag)
 
 ## Disclaimer
 
